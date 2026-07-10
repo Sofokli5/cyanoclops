@@ -1,0 +1,10 @@
+# Dataset root path and folder locations
+path: /content/drive/MyDrive/thesis/data
+train: images/train
+val: images/train
+
+# Class definitions
+names:
+  0: limnospira
+  1: anabaena
+  2: microcystis
