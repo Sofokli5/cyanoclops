@@ -5,6 +5,6 @@ val: images/val
 
 # Class definitions
 names:
-  0: limnospira
-  1: anabaena
+  0: arthrospira
+  1: dolichospermum
   2: microcystis

@@ -38,13 +38,14 @@ python src/train.py --model yolo11m.pt --epochs 200 --data data/dataset.yaml
 - `--model`: YOLO model to use (default: `yolo11m.pt`)
 - `--epochs`: Number of training epochs (default: `200`)
 - `--data`: Path to dataset configuration (default: `data/dataset.yaml`)
+- `--device`: Device for training, e.g. `0` for GPU or `cpu`; if omitted the script will use GPU if available, otherwise CPU.
 
 ### Prediction
 
 Make predictions on new images:
 
 ```bash
-python src/predict.py
+python src/predict.py --source path/to/image_or_folder
 ```
 
 ## Requirements
