@@ -1,0 +1,7 @@
+# training outputs and weigths
+runs/
+*.pt
+
+# dataset files and (images and labels)
+data/images/
+data/labels/
